@@ -203,7 +203,7 @@ python evaluate.py --base_path $VIDEO_FOLDER --metric 'pass@1'
 Please consider citing our paper if our benchmark or test-time strategy are useful:
 ```bib
 @article{chen2025tivibench,
-  title={TiViBench: Benchmarking Think-in-Video Reasoning for Video Generation},
+  title={TiViBench: Benchmarking Think-in-Video Reasoning for Video Generative Models},
   author={Chen, Harold Haodong and Lan, Disen and Shu, Wen-Jie and Liu, Qingyang and Wang, Zihan and Chen, Sirui and Cheng, Wenkai and Chen, Kanghao and Zhang, Hongfei and Zhang, Zixin and Guo, Rongjin and Cheng, Yu and Chen, Ying-Cong},
   journal={arXiv preprint arXiv:2511.13704},
   year={2025}
