@@ -11,8 +11,9 @@ _**[Harold H. Chen](https://haroldchen19.github.io/)<sup>1,2*</sup>, [Disen Lan]
 
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
 
- <!-- <a href='https://arxiv.org/abs/2509.26376'><img src='https://img.shields.io/badge/arXiv-2509.26376-b31b1b.svg'></a>
-<br> -->
+ <a href='https://arxiv.org/abs/2511.13704'><img src='https://img.shields.io/badge/arXiv-2511.13704-b31b1b.svg'></a>
+ [![Project Page](https://img.shields.io/badge/TiViBench-Website-green?logo=googlechrome&logoColor=green)](https://haroldchen19.github.io/TiViBench-Page/)
+<br>
 
 </div>
 
@@ -49,13 +50,10 @@ The rapid evolution of video generative models has shifted their focus from prod
     <tr>
     <td><img src="assets/tivibench.png"></td>
     </tr>
-</table>
-<table class="center">
     <tr>
     <td><img src="assets/pipeline.png"></td>
     </tr>
 </table>
-
 
 
 <a name="evaluation_results"></a>
@@ -207,7 +205,7 @@ Please consider citing our paper if our benchmark or test-time strategy are usef
 @article{chen2025tivibench,
   title={TiViBench: Benchmarking Think-in-Video Reasoning for Video Generation},
   author={Chen, Harold Haodong and Lan, Disen and Shu, Wen-Jie and Liu, Qingyang and Wang, Zihan and Chen, Sirui and Cheng, Wenkai and Chen, Kanghao and Zhang, Hongfei and Zhang, Zixin and Guo, Rongjin and Cheng, Yu and Chen, Ying-Cong},
-  journal={arXiv preprint arXiv:2511.xxxxx},
+  journal={arXiv preprint arXiv:2511.13704},
   year={2025}
 }
 ```
