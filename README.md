@@ -31,14 +31,15 @@ _**[Harold H. Chen](https://haroldchen19.github.io/)<sup>1,2*</sup>, [Disen Lan]
 
 <a name="news"></a>
 ## 📌 News
+- [11/2025] 🔥 We release VideoTPO inference code on Wan2.1!
 - [11/2025] 🔥 We release TiViBench, a hierarchical manner benchmark tailored to visual reasoning for I2V generation models!
 
 
 ## 🧰 TODO
 
 - [x] Release Paper.
+- [x] Release VideoTPO inference code.
 - [ ] Release data and eval code.
-- [ ] Release VideoTPO inference code.
 
 
 <a name="overview"></a>
@@ -195,8 +196,38 @@ python evaluate.py --base_path $VIDEO_FOLDER --metric 'pass@1'
 
 <a name="videotpo"></a>
 ## 🚁 VideoTPO
-...
 
+### VideoTPO on Wan2.1:
+```bash
+cd VideoTPO
+```
+Build Environment:
+```Shell
+echo "Creating conda environment"
+conda create -n VideoTPO python=3.10
+conda activate VideoTPO
+
+echo "Installing dependencies"
+pip install textgrad
+pip install -r requirements.txt
+```
+Set Optimizer:
+```Shell
+export OPENAI_API_KEY="YOUR_API_KEY_HERE"
+```
+### Run
+```Shell
+python videotpo_wan.py \
+    --output_dir /path/to/output \
+    --image_path /path/to/image.png \
+    --init_prompt "Your reasoning prompt here" \
+    --task "Graph Traversal" \
+    --seed1 100 \
+    --seed2 200
+
+# See details
+python inference_videotpo.py --help
+```
 
 <a name="citation"></a>
 ## 📝 Citation
@@ -204,7 +235,7 @@ Please consider citing our paper if our benchmark or test-time strategy are usef
 ```bib
 @article{chen2025tivibench,
   title={TiViBench: Benchmarking Think-in-Video Reasoning for Video Generative Models},
-  author={Chen, Harold Haodong and Lan, Disen and Shu, Wen-Jie and Liu, Qingyang and Wang, Zihan and Chen, Sirui and Cheng, Wenkai and Chen, Kanghao and Zhang, Hongfei and Zhang, Zixin and Guo, Rongjin and Cheng, Yu and Chen, Ying-Cong},
+  author={Chen, Harold Haodong and Lan, Disen and Shu, Wen-Jie and Liu, Qingyang and Wang, Zihan and Chen, Sirui and Cheng, Wenkai and Chen, Kanghao and Zhang, Hongfei and Zhang, Zixin and others},
   journal={arXiv preprint arXiv:2511.13704},
   year={2025}
 }
