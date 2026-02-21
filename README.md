@@ -1,4 +1,4 @@
-<h2 align="center"> TiViBench: Benchmarking Think-in-Video Reasoning for Video Generative Models</h2>
+<h2 align="center"> TiViBench: Benchmarking Think-in-Video Reasoning for Video Generative Models [CVPR'26]</h2>
 <div align="center">
 
 _**[Harold H. Chen](https://haroldchen19.github.io/)<sup>1,2*</sup>, [Disen Lan](https://landisen.github.io/)<sup>3*</sup>, [Wen-Jie Shu](https://github.com/EnVision-Research/TiViBench)<sup>2*</sup>, [Qingyang Liu](https://github.com/EnVision-Research/TiViBench)<sup>4</sup>, [Zihan Wang](https://github.com/EnVision-Research/TiViBench)<sup>1</sup>, [Sirui Chen](https://github.com/EnVision-Research/TiViBench)<sup>1</sup>, [Wenkai Cheng](https://github.com/EnVision-Research/TiViBench)<sup>1</sup>, [Kanghao Chen](https://khao123.github.io/)<sup>1,2</sup>, [Hongfei Zhang](https://github.com/EnVision-Research/TiViBench)<sup>1</sup>, [Zixin Zhang](https://github.com/EnVision-Research/TiViBench)<sup>1,2</sup>, [Rongjin Guo](https://github.com/EnVision-Research/TiViBench)<sup>5</sup>,
@@ -31,6 +31,7 @@ _**[Harold H. Chen](https://haroldchen19.github.io/)<sup>1,2*</sup>, [Disen Lan]
 
 <a name="news"></a>
 ## 📌 News
+- [02/2026] 🔥 TiViBench is accepted by **CVPR'26**!
 - [11/2025] 🔥 We release VideoTPO inference code on Wan2.1!
 - [11/2025] 🔥 We release TiViBench, a hierarchical manner benchmark tailored to visual reasoning for I2V generation models!
 
